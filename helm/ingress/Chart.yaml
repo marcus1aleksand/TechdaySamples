@@ -1,6 +1,6 @@
 apiVersion: v2
-description: ingress-controller-useuro
-name: ingress-controller-useuro
+description: ingress-controller
+name: ingress-controller
 version: 1.0.0
 
 dependencies:

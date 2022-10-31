@@ -1,6 +1,6 @@
 apiVersion: v2
-description: certmanager-useuro
-name: certmanager-useuro
+description: certmanager-techday
+name: certmanager-techday
 version: 1.0.0
 
 dependencies:
