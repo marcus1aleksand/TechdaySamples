@@ -1,0 +1,10 @@
+apiVersion: v2
+description: mysite
+name: mysite
+version: 1.0.0
+
+dependencies:
+- name: deploy-flask
+  version: 0.1.0
+  alias: mysite
+  repository: https://nimramubashir.github.io/deploy-flask/

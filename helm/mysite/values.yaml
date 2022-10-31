@@ -1,0 +1,21 @@
+mysite:
+  app:
+    project: deploy-flask
+    tier: flask-application
+
+  image:
+    repository: educative1/deploy-flask
+    tag: latest
+
+  deployments: 
+    containerName: flask-app
+    containerPort: 5000
+    imagePullPolicy: Always
+    replicas: 1
+
+  service:
+    type: ClusterIP
+    port: 5000         
+    targetPort: 5000
+  ingress:
+    url: techday-us-bluegreen.trafficmanager.net

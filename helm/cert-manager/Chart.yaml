@@ -1,0 +1,9 @@
+apiVersion: v2
+description: certmanager-useuro
+name: certmanager-useuro
+version: 1.0.0
+
+dependencies:
+- name: cert-manager
+  version: 1.9.1
+  repository: https://charts.jetstack.io
