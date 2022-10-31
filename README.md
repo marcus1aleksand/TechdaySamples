@@ -2,12 +2,12 @@
 
 
 
-#DESCRIÇÃO
+DESCRIÇÃO
 
 O BlueGreen Demo Project foi desenhado para apresentar um modelo simples de rapido deploy utilizando IaC (Infraestrutura como código em português) para um sistema que suporte deployments utilizando o modelo blue/green sem oferencer downtime aos usuarios
 .Este projeto foi desenhado para ser executado em uma Azure subscription utilizando uma conta que tenha permissões para provisionar os recursos enumerados no codigo Terraform.
 
-#OBJETIVO
+OBJETIVO
 
 O objetivo desse demo é demonstrar a facilidade de deploy de infraestrutura com multiplos clusters kubernetes, altamente disponível, escalável e ainda oferecendo a possibilidade de realizar upgrades nos componentes criticos de infraestura sem que o usuario experimente downtime. 
 
@@ -22,7 +22,7 @@ Este demo é composto dos seguintes componentes:
 5. O My site demo app helm-chart. O mysite é uma aplicação flask simples para demonstração dos exercicios propostos neste documento. 
 
 
-#REQUISITOS
+REQUISITOS
 
 Para facilitar a etapa de requisitos é recomendado utilizar brew para usuarios de Mac OS, para usuarios linux, utilizar o sistema de gerenciamento de pacotes compativel com a distribuição que utilize, e Chocolatey para usuarios do sistema Microsoft Windows. 
 
@@ -38,7 +38,7 @@ Kubectl - https://kubernetes.io/docs/tasks/tools/
 Helm    - https://helm.sh/docs/intro/install/
 
 
-#COMO UTILIZAR
+COMO UTILIZAR
 
 Uma vez tendo os requisitos instalados e disponíveis, realizar a execução dos seguintes comandos no diretório bluegreendemo-tf:
 
@@ -55,7 +55,7 @@ terraform plan
 
 4 - Uma vez confirmado que não existem erros 
 
-#EXERCICIOS PROPOSTOS
+EXERCICIOS PROPOSTOS
 
 1. Os usuarios são encorajados a realizar simulações de atualizações completas das versões dos cluster kubernetes enquando o trafego é completamente divergido para o cluster que não esta sendo alterado e posteriormente ter o segundo cluster atualizado enquanto o trafego esta completamente divergido para o primeiro e finalmente quando os dois clusters estão atualizados ter trafego divergido entre ambos. 
 
