@@ -1,6 +1,6 @@
 # Techday Demo
 
-![BlueGreen (1)](https://user-images.githubusercontent.com/44185718/199161438-1b0144cc-9cdc-4b95-8276-e7ca8a07d416.png)
+![BlueGreen (2)](https://user-images.githubusercontent.com/44185718/199291691-6366871d-45e2-434f-868e-d30a0ba6fef1.png)
 
 
 DESCRIÇÃO
