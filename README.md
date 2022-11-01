@@ -1,5 +1,6 @@
 # Techday Demo
 
+![BlueGreen](https://user-images.githubusercontent.com/44185718/199161124-68bf7f77-d4fa-4c3f-844a-282f7afe8797.png)
 
 
 DESCRIÇÃO
@@ -62,3 +63,4 @@ EXERCICIOS PROPOSTOS
 2. Os exercicios também podem ser expandidos de maneira a ter o segundo cluster posicionado em uma região diferente a fim de realizar um balanceamento de trafego de acordo com a região mais indicada para o usuario A ou B. 
 
 3. Realizar exercicios de upgrade dos componentes que são instalados através de helm-charts ou adicionar novos helm-charts e, consequentemente, novas ferramentas ou aplicações aos clusters. 
+
