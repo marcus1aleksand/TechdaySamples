@@ -16,5 +16,3 @@ service:
   type: LoadBalancer
   port: 5000         
   targetPort: 5000
-ingress:
-  url: techday-us-bluegreen.trafficmanager.net

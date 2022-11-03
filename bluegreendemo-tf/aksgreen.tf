@@ -84,12 +84,12 @@ resource "helm_release" "app_green" {
   chart      = "../helm/mysite"
   provider = helm.green
 
-  values = [file("../helm/mysite/values.yaml")]
-
   set {
-      name  = "ingress.url"
-      value = format("%s-bluegreen", lower(var.env))
-    }
+        name  = "mysite.ingress.url"
+        value = format("%s-bluegreen.trafficmanager.net", lower(var.env))
+      }
+
+  values = [file("../helm/mysite/values.yaml")]
 
 }
 
@@ -106,6 +106,12 @@ output "kube_config_green" {
 
 output "dns_service_ip_green" {
   value = azurerm_kubernetes_cluster.aks_green.dns_prefix
+
+  sensitive = false
+}
+
+output "application_url" {
+  value = format("https://%s-bluegreen.trafficmanager.net", lower(var.env))
 
   sensitive = false
 }

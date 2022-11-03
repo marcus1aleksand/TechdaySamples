@@ -84,12 +84,12 @@ resource "helm_release" "app_blue" {
   chart      = "../helm/mysite"
   provider = helm.blue
 
-  values = [file("../helm/mysite/values.yaml")]
-
   set {
-      name  = "ingress.url"
-      value = format("%s-bluegreen", lower(var.env))
-    }
+        name  = "mysite.ingress.url"
+        value = format("%s-bluegreen.trafficmanager.net", lower(var.env))
+      }
+  
+  values = [file("../helm/mysite/values.yaml")]
 
 }
 

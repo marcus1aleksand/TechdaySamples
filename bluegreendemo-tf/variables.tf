@@ -1,5 +1,5 @@
 variable "env" {
-    default = "techday-us"
+    default = "techday-if"
 }
 
 variable "location" {

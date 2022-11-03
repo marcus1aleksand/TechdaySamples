@@ -17,5 +17,3 @@ mysite:
     type: ClusterIP
     port: 5000         
     targetPort: 5000
-  ingress:
-    url: techday-us-bluegreen.trafficmanager.net
