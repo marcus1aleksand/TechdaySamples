@@ -54,7 +54,11 @@ terraform init
 3 - Execute o comando para visualizar o plano terraform que irá demonstrar todos os componentes que serão instalados durante a execução
 terraform plan
 
-4 - Uma vez confirmado que não existem erros 
+4 - Uma vez confirmado que não existem erros execute o seguinte comando para aplicar.
+terraform apply
+
+5- Uma vez terminado com a utilização dos recursos provisionados, os recursos criados podem ser removidos com o comando abaixo:
+terraform destroy
 
 EXERCICIOS PROPOSTOS
 
