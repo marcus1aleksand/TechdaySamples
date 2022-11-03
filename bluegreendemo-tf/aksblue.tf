@@ -36,7 +36,7 @@ resource "azurerm_kubernetes_cluster" "aks_blue" {
 }
 
 resource "helm_release" "nginx_blue" {
-  depends_on = [azurerm_kubernetes_cluster.aks_blue]
+  depends_on = [azurerm_kubernetes_cluster.aks_blue,azurerm_public_ip.bluepublicip]
   name       = "ingress-nginx"
   chart      = "ingress-nginx"
   repository = "https://kubernetes.github.io/ingress-nginx"
