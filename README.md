@@ -1,6 +1,6 @@
-# TechdaySamples
+# Techday Demo
 
-BLUEGREEN DEMO PROJECT
+![BlueGreen (2)](https://user-images.githubusercontent.com/44185718/199291691-6366871d-45e2-434f-868e-d30a0ba6fef1.png)
 
 
 DESCRIÇÃO
@@ -63,3 +63,4 @@ EXERCICIOS PROPOSTOS
 2. Os exercicios também podem ser expandidos de maneira a ter o segundo cluster posicionado em uma região diferente a fim de realizar um balanceamento de trafego de acordo com a região mais indicada para o usuario A ou B. 
 
 3. Realizar exercicios de upgrade dos componentes que são instalados através de helm-charts ou adicionar novos helm-charts e, consequentemente, novas ferramentas ou aplicações aos clusters. 
+
